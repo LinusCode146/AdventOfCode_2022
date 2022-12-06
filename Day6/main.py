@@ -6,7 +6,8 @@ def all_different(x):
     for char in x:
         if x.count(char) > 1:
             return False
-    return True
+    else:
+        return True
         
 
 code = ''
