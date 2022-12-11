@@ -46,8 +46,11 @@ for round in range(ROUNDS):
             monkeys[new_monkey].append(new_item)
         monkeys[key] = []
             
-
-print(348*347)
+solution = []
+for _ in range(2):
+    solution.append(max(inspected))
+    insepected.remove(max(inspected))
+print(reduce(lambda x,y: x*y, solution))
 
 
 
